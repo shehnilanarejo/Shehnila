@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Shehnila</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Shehnila Narejo<br />a</span> Front End Developer
+        </h1>
+        <p class="description">
+          Welcome to my portfolio! Hi, I'm Shehnila, a frontend developer passionate about crafting
+          engaging and responsive websites. I've developed frontend projects, including travel and food website.
+          Currently, I'm studying Software Engineering at NED University.
+        </p>
+      </div>
+      <div class="image">
+        <img src="assets/WhatsApp Image 2024-07-30 at 21.28.15.jpeg" alt="profile" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section container-xxl py-6 pb-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12">
+          <h2 class="display-4 text-primary">About Me</h2>
+          <p class="lead">Hello! I'm Shehnila Narejo, currently in my third year studying Software Engineering at NED
+            University, Karachi. I have a deep passion for coding and technology, and I'm constantly exploring new
+            challenges and opportunities in the field of software development. My primary interest lies in frontend
+            development; I love creating engaging and intuitive user interfaces. I've had the opportunity to build
+            several projects, including a food ordering website and a site showcasing Sindhi culture. These experiences
+            have only fueled my enthusiasm for frontend design and development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section container-xxl py-6 pb-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+          <h1 class="display-5 mb-5">Skills</h1>
+          <p class="mb-4">
+            Experienced in various technologies and programming languages, with a strong background in software
+            development and problem-solving.
+          </p>
+          <h3 class="mb-4">My Skills</h3>
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <div class="skill skill-html mb-4">
+                <h6>HTML</h6>
+              </div>
+              <div class="skill skill-css mb-4">
+                <h6>CSS</h6>
+              </div>
+              <div class="skill skill-js mb-4">
+                <h6>JavaScript</h6>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skill skill-sql mb-4">
+                <h6>SQL</h6>
+              </div>
+              <div class="skill skill-cpp mb-4">
+                <h6>C++</h6>
+              </div>
+              <div class="skill skill-python mb-4">
+                <h6>Python</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section container-xxl py-6 pb-5">
+    <div class="container">
+      <h3 class="display-5 mb-4">Contact Form</h3>
+      <form action="https://api.web3forms.com/submit" method="POST" name="contact_form">
+        <div class="form-group mb-4">
+          <label for="first_name">First Name</label>
+          <input id="first_name" name="first_name" type="text" class="form-control" required placeholder="John" />
+        </div>
+        <div class="form-group mb-4">
+          <label for="last_name">Last Name</label>
+          <input id="last_name" name="last_name" type="text" class="form-control" required placeholder="Doe" />
+        </div>
+        <div class="form-group mb-4">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" class="form-control" required placeholder="you@domain.com" />
+        </div>
+        <div class="form-group mb-4">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-control" cols="30" rows="10" placeholder="Enter your message here ..." required></textarea>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-primary" value="Submit">
+        </div>
+      </form>
+      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+    </div>
+  </section>
+  
+
+  <footer class="footer">
+    <p>&copy; 2024 Shehnila Narejo. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
+
+</html>
